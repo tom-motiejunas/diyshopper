@@ -1,0 +1,62 @@
+/* Media queries */
+
+@media (max-width: 768px) {
+  #nav-bar ul {
+    flex-direction: column;
+  }
+
+  #logo-box {
+    margin: 0;
+  }
+
+  #entry {
+    justify-content: flex-start;
+    padding-top: 2rem;
+  }
+
+  #entry form input:focus {
+    width: 300px;
+  }
+
+  .products-main img,
+  .about-main img {
+    height: 400px;
+    margin: auto;
+    padding: 16px 0;
+  }
+
+  .about-main p,
+  .about-main h1 {
+    margin: 1rem;
+  }
+
+  .icons {
+    flex-direction: column;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact-form .btn {
+    width: 100%;
+  }
+
+  #contact-info {
+    margin: 0;
+  }
+
+  #contact-info .container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  #entry form {
+    width: 300px;
+  }
+  .about-main div {
+    width: 300px;
+  }
+}
